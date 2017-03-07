@@ -1,0 +1,68 @@
+
+#h1{
+	font-family: century gothic;
+	font-size: 30px;
+	color:#2FCA5E;
+	margin: 10px;
+	padding: 5px;
+	text-align: left;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.loginbox {
+	background: #eee;
+	color: #2FCA5E;
+	width: 20%;
+	padding: 15px;
+    border: 2px solid #DEDEDE;
+    border-radius: 2px;
+}
+.loginbox input{
+	align: center;
+	border-left: 3px solid #2FCA5E;
+	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	width: 90%;
+	margin:2px;
+	background: transparent;
+}
+
+.loginbox input:hover, .loginbox input:active, .loginbox input:focus{
+	border-left: 5px solid #32B158;
+	border-right: 1px solid #32B158;
+	border-top: 1px solid #32B158;
+	border-bottom: 1px solid #32B158;
+	color: #32B158;
+	transition: all .1s;
+}
+
+input{
+	font-size:15px;
+	padding: 5px;
+	font-family: century gothic;
+	color: #464646;
+}
+
+
+#button{
+	font-family: century gothic;
+	color: #2FCA5E;
+	border: 2px solid #2FCA5E;
+	background: transparent;
+}
+#button:hover, #button:active, #button:focus{
+	/*border-left: 5px solid #32B158;*/
+	text-transform: uppercase; 
+	transition: all .1s;
+}
