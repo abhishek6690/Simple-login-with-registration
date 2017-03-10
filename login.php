@@ -53,7 +53,7 @@ if(!empty($_POST['user']) && !empty($_POST['pass'])) {
 	}
 
 } else {
-	echo "All fields are required!";
+	echo " All fields are required!";
 }
 }
 ?>
